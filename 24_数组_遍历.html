@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 简洁方式 定义同时赋值
+        var array = [1,2,3]
+        // 常规方式遍历
+        alert(array[0])
+        alert(array[1])
+        alert(array[2])
+
+        // for循环变量
+        for (var index = 0; index < array.length; index++) {
+            alert(array[index]);            
+        }
+
+        var num = 0
+        for (var index = 0; index < array.length; index++) {
+            num = num + array[index]
+        }
+        alert(num);    
+    </script>
+</body>
+</html>
